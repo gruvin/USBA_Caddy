@@ -55,7 +55,7 @@
     (aux_axis_origin 113.2 76.8256)
     (grid_origin 128.15 73.3256)
     (pcbplotparams
-      (layerselection 0x0000000_7fffffff)
+      (layerselection 0x0001230_ffffffff)
       (disableapertmacros true)
       (usegerberextensions true)
       (usegerberattributes true)
@@ -85,7 +85,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerb/")
+      (outputdirectory "gerber/")
     )
   )
 
@@ -213,7 +213,7 @@
     (descr "USB type A Plug, Horizontal, http://cnctech.us/pdfs/1001-011-01101.pdf")
     (tags "USB-A")
     (attr smd)
-    (fp_text reference "REF**" (at 0.5 0.05) (layer "F.SilkS")
+    (fp_text reference "USBA_PLUG" (at 0.5 0.05) (layer "F.SilkS")
       (effects (font (size 0.7 0.7) (thickness 0.125)))
       (tstamp 61b6f2c4-b226-47d6-bbd8-9d67fcaf35c3)
     )
@@ -339,6 +339,8 @@
     (pad "1" thru_hole roundrect (at 0 0 90) (size 1.8 3) (drill 1) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp aca4de92-9c41-4c2b-9afa-540d02dafa1c))
   )
 
+  (gr_line (start 114.325 64.8006) (end 116.1 64.0756) (layer "Cmts.User") (width 0.15) (tstamp ccbccc68-d102-4809-a3c8-c848af50e594))
+  (gr_line (start 114.325 67.7256) (end 116.15 68.4006) (layer "Cmts.User") (width 0.15) (tstamp d4154f69-21c9-4af5-91b2-b8dea156200e))
   (gr_arc (start 116.7 63.2006) (mid 116.846701 62.773034) (end 117.225 62.5256) (layer "Edge.Cuts") (width 0.1) (tstamp 0ac1433b-8d6b-4c8c-a8e5-1122c8291446))
   (gr_line (start 129.25 59.1506) (end 117.225 62.5256) (layer "Edge.Cuts") (width 0.1) (tstamp 143b1df1-507b-41b7-a4c7-2e7909d5d803))
   (gr_line (start 129.225 73.1756) (end 117.2 69.8006) (layer "Edge.Cuts") (width 0.1) (tstamp 381b1b53-c6cf-48d6-9479-9d0979bbb171))
@@ -351,6 +353,12 @@
   (gr_line (start 116.7 69.1006) (end 116.7 63.2006) (layer "Edge.Cuts") (width 0.1) (tstamp eb0d05e7-5fd4-4ff4-b2a1-56d0078fba45))
   (gr_line (start 141.1 59.0256) (end 129.9 59.0256) (layer "Edge.Cuts") (width 0.1) (tstamp ebe20b3f-576a-4fc8-9fa4-006a8382e7bf))
   (gr_arc (start 129.25 59.1506) (mid 129.569045 59.057134) (end 129.9 59.0256) (layer "Edge.Cuts") (width 0.1) (tstamp fa45db28-7b53-4516-a807-274833c163c6))
+  (gr_text "https://github.com/gruvin/USBA_Caddy" (at 129.575 66.1006) (layer "B.SilkS") (tstamp 101ef598-601d-400e-9ef6-d655fbb1dbfa)
+    (effects (font (size 0.7 0.7) (thickness 0.125)) (justify mirror))
+  )
+  (gr_text "Cable Strain\nRelief Anchors" (at 108.375 66.2756) (layer "Cmts.User") (tstamp 7ab98ccd-8a88-4127-bdc9-df594bbf05d4)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
 
   (segment (start 136.1 67.1756) (end 130.25 67.1756) (width 1) (layer "F.Cu") (net 0) (tstamp 1eec8543-621f-4092-873a-1da3134d3489))
   (segment (start 136.1 65.1756) (end 130.25 65.1756) (width 1) (layer "F.Cu") (net 0) (tstamp 339fdf0f-a987-48da-8bb7-18504254b625))
