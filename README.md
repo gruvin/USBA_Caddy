@@ -2,6 +2,7 @@
 
 This PCB was created using free and Open Source [KiCAD](https://www.kicad.org/)[^ns].
 
+<img height="142" alt="render" src="https://user-images.githubusercontent.com/7283745/171084650-5acec5d8-dff5-4891-b3e4-378239706cf6.png"> <img height="142" alt="photo of first version" src="https://user-images.githubusercontent.com/7283745/171083789-fa840903-68a4-4570-bb02-eecf07eae683.JPG">
 
 
 Gerber files in `./gerbers/` are compatible with [CopperCAM](https://www.galaad.net/coppercam-eng.html)[^ns] and FlatCAM-beta[^note][^ns], should you wish to CNC mill the board. That is, they use slightly older standards but shouldn't be a problem with modern fab houses.
